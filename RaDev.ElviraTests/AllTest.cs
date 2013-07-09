@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RaDev.ElviraFramework;
 using RaDev.ElviraFramework.Extensions;
+using RaDev.ElviraFramework.Network;
 using RaDev.ElviraFramework.Templating;
 
 namespace RaDev.ElviraTests
@@ -61,6 +62,13 @@ namespace RaDev.ElviraTests
             var razor = new RazorTemplater<string>(testResult, templateText);
             var result = razor.Execute().NoTags();
             Assert.IsTrue(result.ToLower() == testResult.ToLower(), "Шаблон работает не корректно");
+        }
+
+        [TestMethod]
+        public void NetAdapt()
+        {
+            var data = NetworkConnection.DownloadImage(new Uri("http://static.adzerk.net/Advertisers/60abb4b317034aa2af0bc697e6f02963.png"));
+            Assert.IsTrue(data != null, "Не получил данные сайта");
         }
     }
 }

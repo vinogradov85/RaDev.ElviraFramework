@@ -34,12 +34,14 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.Razor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\NetworkConnectionState.cs" />
     <Compile Include="Enums\StringCase.cs" />
     <Compile Include="Extensions\HtmlExtensions.cs" />
     <Compile Include="Extensions\ObjectAndTypeExtensions.cs" />
@@ -48,6 +50,7 @@
     <Compile Include="Log\FileLogger.cs" />
     <Compile Include="Enums\LogWritePriority.cs" />
     <Compile Include="Math\Algo.cs" />
+    <Compile Include="Network\NetConnections.cs" />
     <Compile Include="SafetyExecuter.cs" />
     <Compile Include="Templating\RazorTemplater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
