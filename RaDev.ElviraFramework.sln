@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaDev.ElviraFramework", "RaDev.ElviraFramework\RaDev.ElviraFramework.csproj", "{00D69EFD-E977-4BF5-9596-A2F881896E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaDev.ElviraTests", "RaDev.ElviraTests\RaDev.ElviraTests.csproj", "{261CBFA9-B185-4E83-B1A0-C80838AF610D}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RaDev.ElviraFramework\RaDev.ElviraFramework.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00D69EFD-E977-4BF5-9596-A2F881896E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D69EFD-E977-4BF5-9596-A2F881896E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D69EFD-E977-4BF5-9596-A2F881896E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D69EFD-E977-4BF5-9596-A2F881896E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261CBFA9-B185-4E83-B1A0-C80838AF610D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261CBFA9-B185-4E83-B1A0-C80838AF610D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261CBFA9-B185-4E83-B1A0-C80838AF610D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261CBFA9-B185-4E83-B1A0-C80838AF610D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
