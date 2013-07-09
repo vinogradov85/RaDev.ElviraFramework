@@ -50,7 +50,7 @@
     <Compile Include="Log\FileLogger.cs" />
     <Compile Include="Enums\LogWritePriority.cs" />
     <Compile Include="Math\Algo.cs" />
-    <Compile Include="Network\NetConnections.cs" />
+    <Compile Include="Network\Network.cs" />
     <Compile Include="SafetyExecuter.cs" />
     <Compile Include="Templating\RazorTemplater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

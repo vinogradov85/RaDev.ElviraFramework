@@ -67,7 +67,7 @@ namespace RaDev.ElviraTests
         [TestMethod]
         public void NetAdapt()
         {
-            var data = NetworkConnection.DownloadImage(new Uri("http://static.adzerk.net/Advertisers/60abb4b317034aa2af0bc697e6f02963.png"));
+            var data = Network.DownloadImage(new Uri("http://static.adzerk.net/Advertisers/60abb4b317034aa2af0bc697e6f02963.png"));
             Assert.IsTrue(data != null, "Не получил данные сайта");
         }
     }
