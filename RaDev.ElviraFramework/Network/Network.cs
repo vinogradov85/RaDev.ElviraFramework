@@ -12,7 +12,7 @@ namespace RaDev.ElviraFramework.Network
     /// <summary>
     /// Работа с сетью
     /// </summary>
-    public static class NetworkConnection
+    public static class Network
     {
         #region Вспомогательные
 
